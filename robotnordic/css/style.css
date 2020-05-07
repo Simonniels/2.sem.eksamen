@@ -164,6 +164,16 @@ main{
       height: 130px;
       border-radius: 10px;
 }
+
+.button img {
+  width: 50px;
+  margin-top: 25px;
+}
+
+.button h2 {
+  margin-top: 0px;
+}
+
 .next{
     border: 2px solid #000;
     width: 80%;
