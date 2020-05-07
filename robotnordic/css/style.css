@@ -208,12 +208,12 @@ main{
 
 
 .half{
-  width: 45%;
+  width: 48%;
   background-color: #fff;
-  border-radius: 15px;
-  margin: auto;
+border: 2px solid #000;
+ margin: auto;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 0px;
 
 }
 .half h1, .half img {
