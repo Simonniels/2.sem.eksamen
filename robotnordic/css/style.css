@@ -100,14 +100,14 @@ ul{
 
 .menu-left-part {
     display: none;
-    margin-top: 40px;
-    margin-left: 150px;
+    margin-top: 64px;
+    margin-left: 170px;
     z-index: 999;
-    width: 20%;
-    position: absolute;
+    width: 200px;
+    position: fixed;
     background-color: #323e44;
     color: #fff;
-    text-align: center;
+    text-align: right;
 }
 
 .show {

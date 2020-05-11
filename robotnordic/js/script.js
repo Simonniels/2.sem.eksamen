@@ -21,15 +21,12 @@ window.onclick = function(event) {
 }
 
 
-
 function buttonFunction() {
   document.getElementById("button").classList.toggle("choose");
   document.getElementById("button1").classList.remove("choose");
   document.getElementById("button2").classList.remove("choose");
   document.getElementById("button3").classList.remove("choose");
-
 }
-
 
 function buttonFunction1() {
   document.getElementById("button1").classList.toggle("choose");
@@ -50,8 +47,4 @@ function buttonFunction3() {
   document.getElementById("button1").classList.remove("choose");
   document.getElementById("button2").classList.remove("choose");
   document.getElementById("button").classList.remove("choose");
-}
-function buttonFunction4() {
-  document.getElementById("button4").classList.toggle("choose");
-
 }
