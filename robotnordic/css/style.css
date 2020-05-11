@@ -29,7 +29,11 @@ header {
 
 
 /*menu */
-
+.toggle-holder {
+    background-color: #222b3b;
+    width: 35px;
+    padding: 10px;
+}
 
 #toggle
 {
@@ -46,7 +50,7 @@ header {
 {
     width: 26px;
     height: 4px;
-    background: #5B5B5B;
+    background: #fff;
     left: 1px;
     position: absolute;
     transition: opacity 0.25s;
@@ -58,7 +62,7 @@ header {
     content: '';
     height: 4px;
     width: 26px;
-    background: #5B5B5B;
+    background: #fff;
     left: 1px;
     position: absolute;
     transform-origin: 50% 50%;
@@ -154,25 +158,6 @@ main{
     margin: auto;
     text-align: center;
 }
-
-.pallet{
-    width: 50%;
-    height: 200px;
-    background-color: #fff;
-    margin: auto;
-    text-align: center;
-}
-
-.putton {
-      width: 60%;
-      margin: auto;
-      padding: 20px;
-      border: 2px solid #000;
-      margin-top: 20px;
-      height: 130px;
-      border-radius: 10px;
-}
-
 
 .button {
       width: 60%;
