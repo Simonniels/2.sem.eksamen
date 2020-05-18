@@ -9,11 +9,9 @@
   <body>
             <header>
 
-
               <div id="logo">
                 <a href="index.html" ><img src="image/logo.png" alt="Robot Nordic"></a>
                 </div>
-
 
               <div class="toggle-holder">
                   <div onclick="myFunction()"  id="toggle"  class="menu-line">
