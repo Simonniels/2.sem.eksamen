@@ -18,7 +18,6 @@
                     <div class="menu-line"></div>
                   </div>
                 </div>
-
                         <nav  id="myDropdown" class="menu-left-part">
                         <ul class="menu">
 
