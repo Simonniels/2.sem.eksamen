@@ -5,15 +5,25 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js" defer></script>
     <title>Robot Nordic</title>
+<style media="screen">
+        .full h2{
+          font-size: 55px;
+          text-align: center;
+          width: 50%;
+          color: red;
+        }
+        .button {
+          width: 80%;
+        }
+</style>
+
   </head>
   <body>
             <header>
 
-
               <div id="logo">
                 <a href="index.html" ><img src="image/logo.png" alt="Robot Nordic"></a>
                 </div>
-
               <div class="toggle-holder">
                   <div onclick="myFunction()"  id="toggle"  class="menu-line">
                     <div class="menu-line"></div>
@@ -37,72 +47,84 @@
   <main>
 
 
-      <section class="pallet">
+      <section class="full">
 
-            <div class="putton" onclick="buttonFunction()"  id="button" >
-
-            <h2>Europalle</h2>
-
-            </div>
-
-      </section>
-
-      <section class="pallet">
-
-        <div class="putton" onclick="buttonFunction1()"  id="button1" >
-
-        <h2>US-Palle</h2>
-        </div>
+        <h2>Væl gemt palle</h2>
 
           </section>
 
+          <section class="half">
 
-        <section class="pallet">
+                <div class="button button0" onclick="buttonFunction()"  id="button" >
+                <img src="image/icon/setting.png" alt="icon">
+                <h2>Ins.</h2>
 
-          <div class="putton" onclick="buttonFunction2()"  id="button2" >
+                </div>
 
-            <h2>Halv-Palle</h2>
+          </section>
+
+        <section class="half">
+
+          <div class="button button1" onclick="buttonFunction2()"  id="button2" >
+            <a href="ny.html">
+            <img src="image/icon/palle.png" alt="icon">
+            <h2>Us Palle</h2></a>
           </div>
 
 
         </section>
-        <section class="pallet">
 
-          <div class="putton" onclick="buttonFunction2()"  id="button3" >
+        <section class="half">
 
-            <h2>Kvart-Palle</h2>
-          </div>
-
-
-        </section>
-        <section class="pallet">
-
-          <div class="putton" onclick="buttonFunction2()"  id="button4" >
-
-            <h2>Manuel</h2>
-          </div>
-
-
-        </section>
-        <section class="pallet">
-
-          <div class="putton" onclick="buttonFunction3()"  id="button5" >
-
-            <h2>Ins</h2>
+          <div class="button button2" onclick="buttonFunction2()"  id="button2" >
+            <a href="ny.html">
+            <img src="image/icon/palle.png" alt="icon">
+            <h2>Halv Palle</h2></a>
           </div>
 
         </section>
-        <section class="pallet">
+
+        <section class="half">
+
+          <div class="button button3" onclick="buttonFunction2()"  id="button2" >
+            <a href="ny.html">
+            <img src="image/icon/palle.png" alt="icon">
+            <h2>Kvart Palle</h2></a>
+          </div>
 
         </section>
-        <section class="pallet">
-          <a href="#">
+        <section class="half">
+
+          <div class="button button4" onclick="buttonFunction2()"  id="button2" >
+            <a href="ny.html">
+            <img src="image/icon/palle.png" alt="icon">
+            <h2>Manuel</h2></a>
+          </div>
+
+        </section>
+        <section class="half">
+
+          <div class="button button5" onclick="buttonFunction2()"  id="button2" >
+            <a href="ny.html">
+            <img src="image/icon/palle.png" alt="icon">
+            <h2>Euro Palle</h2></a>
+          </div>
+
+        </section>
+
+        <section class="half">
+
             <div class="next">
-              <h2>Next</h2>
+                <button onclick="goBack()">
+              <h2>Tilbage</h2>
+              </button>
             </div>
-            </a>
+
         </section>
 
+        <section class="half">
+
+        </section>
     </main>
 
   </body>
