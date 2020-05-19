@@ -5,7 +5,6 @@
 
   <main>
 
-
       <section class="full">
 
         <div class="button button1" onclick="buttonFunction1()"  id="button1" >
