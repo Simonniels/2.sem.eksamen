@@ -153,13 +153,30 @@ main{
 .full h2{
   font-size: 55px;
   text-align: center;
-  width: 50%;
   color: red;
+}
+
+.button input{
+  padding: 20px;
+width: 200px;
+border: 2px solid #000;
+border-radius: 10px;
 }
 
 .udenicon{
   min-height: 115px;
   padding-top: 90px
+}
+
+.udenicon h2{
+  margin-top: 50px !important;
+
+}
+
+.udenicon h3{
+  font-size: 35px;
+  text-align: center;
+  color: red;
 }
 
 .half{
@@ -169,6 +186,19 @@ main{
     background-color: #fff;
     margin: auto;
     text-align: center;
+}
+
+.info {
+
+ text-align: center;
+ width: 100%;
+
+}
+.info h1{
+  font-size: 55px;
+  text-align: center;
+  color: red;
+  width: 100%;
 }
 
 .button {
@@ -206,10 +236,10 @@ main{
 }
 .qrko{
   min-height: 115px;
-  padding-top: 400px
+  padding: 20% 34%;
 }
 .qr {
-      width: 60%;
+      width: 100%;
       margin: auto;
       padding: 20px;
       border: 2px solid #000;
@@ -218,8 +248,7 @@ main{
 }
 
 .qr img {
-  width: 100px;
-  margin-top: 25px;
+  width: 200px;
 }
 
 .qr h2 {
