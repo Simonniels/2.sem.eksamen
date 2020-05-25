@@ -156,6 +156,43 @@ main{
   color: red;
 }
 
+.kasse-form{
+  display: flex;
+  flex-direction: column;
+}
+.kasse-form form{
+  display: flex;
+  flex-wrap: wrap;
+}
+.kasse-form label{
+  width: 45%;
+  font-size: 55px;
+  text-align: center;
+  color: red;
+  padding: 30px;
+
+}
+.kasse-form input{
+  padding: 30px 0px;
+  width: 100%;
+  border: 2px solid #000;
+  border-radius: 10px;
+  font-size: 50px;
+  margin: 10px;
+}
+.kasse-form h1{
+  width: 100%;
+  font-size: 55px;
+  text-align: center;
+  color: red;
+}
+
+.kasse-form input{
+  width: 45%;
+}
+
+
+
 .button input {
     padding: 30px 0px;
     width: 100%;

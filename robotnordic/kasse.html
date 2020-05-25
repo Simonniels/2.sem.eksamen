@@ -7,30 +7,31 @@
     <title>Robot Nordic</title>
   </head>
   <body>
-            <header>
 
-              <div id="logo">
-                <a href="index.html" ><img src="image/logo.png" alt="Robot Nordic"></a>
+          <header>
+
+            <div id="logo">
+              <a href="index.html" ><img src="image/logo.png" alt="Robot Nordic"></a>
+              </div>
+            <div class="toggle-holder">
+                <div onclick="myFunction()"  id="toggle"  class="menu-line">
+                  <div class="menu-line"></div>
                 </div>
-              <div class="toggle-holder">
-                  <div onclick="myFunction()"  id="toggle"  class="menu-line">
-                    <div class="menu-line"></div>
-                  </div>
-                </div>
+              </div>
 
-                        <nav  id="myDropdown" class="menu-left-part">
-                        <ul class="menu">
+                      <nav  id="myDropdown" class="menu-left-part">
+                      <ul class="menu">
 
-                            <li class="menu-item active-menu"><img src="image/home-icon.png" alt=""> <a href="index.html" >Forside</a></li>
-                            <li class="menu-item"><img src="image/spil-icon.png" alt=""><a href="inst.html">Indstillinger</a></li>
-                            <li class="menu-item"><img src="image/produkt-icon.png" alt=""><a href="gemt.html">Gemt</a></li>
-                            <li class="menu-item"><img src="image/kupon-icon.png" alt=""><a href="historik.html">Historik</a></li>
-                            <li class="menu-item"><img src="image/kurv-icon.png" alt=""><a href="logud.html">Logud</a></li>
+                          <li class="menu-item active-menu"><img src="image/home-icon.png" alt=""> <a href="index.html" >Forside</a></li>
+                          <li class="menu-item"><img src="image/spil-icon.png" alt=""><a href="inst.html">Indstillinger</a></li>
+                          <li class="menu-item"><img src="image/produkt-icon.png" alt=""><a href="gemt.html">Gemt</a></li>
+                          <li class="menu-item"><img src="image/kupon-icon.png" alt=""><a href="historik.html">Historik</a></li>
+                          <li class="menu-item"><img src="image/kurv-icon.png" alt=""><a href="logud.html">Logud</a></li>
 
-                        </ul>
-                    </nav>
+                      </ul>
+                  </nav>
 
-            </header>
+          </header>
 
   <main>
 
@@ -38,46 +39,26 @@
 
       <section class="full">
 
-        <div class="button">
-          <form action="overview-kasse.php"  method="get">
+        <div class="kasse-form">
 
-          <img src="image/icon/box.png" alt="icon">
-        <h2>Højte</h2>
-        <input type="text" name="hojde">
-        <h2>Længde</h2>
-        <input type="text" name="lange">
-        <h2>Vægt</h2>
+          <form action="overview-kasse.php"  method="get">
+          <h1>Udfylde kasse oplysninger</h1>
+          <label>Højte</label>
+          <input type="text" name="hojde"><br>
+          <label>Længde</label>
+          <input type="text" name="lange">
+          <label>Vægt</label>
           <input type="text" name="vagt">
-          <h2>Bredde</h2>
-            <input type="text" name=bred">
-            <input type="submit" >
-</form>
+          <label>Bredde</label>
+          <input type="text" name="bred">
+            <label></label>
+          <input type="submit" >
+        </form>
         </div>
 
 
         </section>
 
-        <section class="half">
-
-          <div class="button">
-
-            <img src="image/icon/palle.png" alt="icon">
-            <h2>Gem oplysninger</h2>
-              <input type="submit" >
-          </div>
-
-        </section>
-        <section class="half">
-
-          <div class="button">
-
-            <img src="image/icon/palle.png" alt="icon">
-            <h2>Sende oplysninger</h2>
-            <input type="submit" >
-
-          </div>
-
-        </section>
 
         <section class="half">
 
