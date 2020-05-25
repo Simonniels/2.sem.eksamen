@@ -6,6 +6,7 @@
     <script src="js/script.js" defer></script>
     <title>Robot Nordic</title>
 
+
   </head>
   <body>
             <header>
@@ -35,63 +36,16 @@
 
   <main>
 
+          <section class="full info">
 
-      <section class="full info">
+            <h1>Vælg Lastbil Højde</h1>
 
-        <h1>Vælg Lastbil Højde</h1>
+              </section>
 
-          </section>
-
-          <section class="half">
-
-                <div class="button udenicon">
-
-                  <form action="overview-lastbil.php"  method="get">
-                  <input type="submit" name="lastbil" value="2.60">
-                </form>
-                </div>
-          </section>
-
-        <section class="half">
-
-          <div class="button  udenicon">
-
-            <form action="overview-lastbil.php"  method="get">
-            <input type="submit" name="lastbil" value="2.55">
-          </form>
-          </div>
+              <section id="lastbil"></section>
 
 
-        </section>
 
-        <section class="half">
-
-          <div class="button  udenicon">
-            <form action="overview-lastbil.php"  method="get">
-            <input type="submit" name="lastbil" value="2.50">
-          </form>
-          </div>
-
-        </section>
-
-        <section class="half">
-
-          <div class="button udenicon" >
-            <form action="overview-lastbil.php"  method="get">
-            <input type="submit" name="lastbil" value="2.45">
-          </form>
-          </div>
-
-        </section>
-        <section class="half">
-
-          <div class="button  udenicon">
-            <form action="overview-lastbil.php"  method="get">
-            <input type="submit" name="lastbil" value="2.40">
-          </form>
-          </div>
-
-        </section>
         <section class="half">
 
           <div class="button udenicon">
@@ -121,6 +75,19 @@
 
         </section>
     </main>
+          <script>
+            var lastbil, text, fLen, i;
+            lastbil = ["2.55", "2.60", "2.65", "2.70"];
+            fLen = lastbil.length;
 
+          text="";
+            for (i = 0; i < fLen; i++) {
+              text += "<div class='lastbil-button'><form action='overview-lastbil.php'  method='get'> <input type='submit' name='lastbil' value='" + lastbil[i] + "'></form></div>";
+            }
+            text += "";
+
+            document.getElementById("lastbil").innerHTML = text;
+
+          </script>
   </body>
 </html>

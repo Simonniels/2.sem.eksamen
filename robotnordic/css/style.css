@@ -293,8 +293,28 @@ main{
   margin-top: 0px;
   font-size: 40px;
 }
+#lastbil{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+}
 
+#lastbil div{
+  width: 45%;
+  margin: 20px;
+}
 
+.lastbil-button input{
+    padding: 30px 0px;
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    padding: 30px;
+}
 
 }
 
