@@ -36,91 +36,46 @@
   <main>
 
 
-      <section class="full info">
-
-        <h1>Vælg gemt palle</h1>
-
-          </section>
 
           <section class="half">
 
-                <div class="button">
-                <img src="image/4-vejs.jpg" alt="icon">
-                <form action="overview-palle.php"  method="get">
-                <input type="submit" name="palle" value="4-vejs palle ">
-                            </form>
-                </div>
+                <div class="button udenicon" >
+                  <h2>Lastbil Højde</h2>
 
+                  <?php echo $_GET["lastbil"]; ?>
+                </div>
           </section>
 
         <section class="half">
-
-          <div class="button" >
-
-            <img src="image/2-vejs.jpg" alt="icon">
-
-              <form action="overview-palle.php"  method="get">
-                <input type="submit" name="palle" value="2-vejs palle ">
-                  </form>
+          <a href="kasse.html">
+          <div class="button  udenicon">
+            <h2>Tilføj kasse oplysninger</h2>
           </div>
-
+        </a>
 
         </section>
 
         <section class="half">
-
-          <div class="button">
-
-            <img src="image/lukket.jpg" alt="icon">
-            <form action="overview-palle.php"  method="get">
-              <input type="submit" name="palle" value="Lukket palle">
-                </form>
+          <a href="palle.html">
+          <div class="button  udenicon">
+            <h2>Tilføj palle oplysninger</h2>
           </div>
-
+        </a>
         </section>
-
         <section class="half">
-
-          <div class="button">
-
-            <img src="image/icon/palle.png" alt="icon">
-            <form action="overview-palle.php"  method="get">
-              <input type="submit" name="palle" value="halv">
-                </form>
-          </div>
 
         </section>
         <section class="half">
 
-                    <div class="button">
 
-                      <img src="image/europalle.jpg" alt="icon">
-                      <form action="overview-palle.php"  method="get">
-                        <input type="submit" name="palle" value="europalle">
-                          </form>
-                    </div>
-
-
-        </section>
-        <section class="half">
-          <div class="button udenicon">
-            <form action="overview-palle.php"  method="get">
-              <input type="text" name="palle"><br>
-              <input type="submit">
-                </form>
-          </div>
-
-        </section>
-
-        <section class="half">
-
-            <div class="button">
+            <div class="next">
                 <button onclick="goBack()">
               <h2>Tilbage</h2>
               </button>
             </div>
 
         </section>
+
         <section class="half">
 
         </section>
