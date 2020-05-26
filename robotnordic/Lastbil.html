@@ -59,7 +59,7 @@
 
         </section>
 
-        <section class="half">
+        <section class="full">
 
             <div class="button">
                 <button onclick="goBack()">
@@ -70,19 +70,6 @@
         </section>
 
     </main>
-          <script>
-            var lastbil, text, lastbilLen, i;
-            lastbil = ["2.55", "2.60", "2.65", "2.70", "2.75","2.80"];
-            lastbilLen = lastbil.length;
 
-            text="";
-            for (i = 0; i < lastbilLen; i++) {
-              text += "<div class='lastbil-button'><form action='overview-lastbil.php'  method='get'> <input type='submit' name='lastbil' value='" + lastbil[i] + "'></form></div>";
-            }
-
-
-            document.getElementById("lastbil").innerHTML = text;
-
-          </script>
   </body>
 </html>

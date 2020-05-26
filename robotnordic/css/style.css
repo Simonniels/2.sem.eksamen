@@ -138,6 +138,7 @@ main{
   flex-wrap: wrap;
   background-color: #fff;
   padding-top: 40px;
+
 }
 
 .full{
@@ -145,15 +146,17 @@ main{
   display: flex;
   flex-wrap: wrap;
   background-color: #fff;
-    text-align: center;
-    margin: auto;
-    text-align: center;
+  text-align: center;
+  margin: auto;
+  text-align: center;
 
 }
 .full h2{
   font-size: 55px;
   text-align: center;
   color: red;
+  width: 100%;
+  margin: auto;
 }
 
 .kasse-form{
@@ -169,11 +172,11 @@ main{
   font-size: 55px;
   text-align: center;
   color: red;
-  padding: 30px;
+  padding: 15px;
 
 }
 .kasse-form input{
-  padding: 30px 0px;
+  padding: 15px 0px;
   width: 100%;
   border: 2px solid #000;
   border-radius: 10px;
@@ -194,7 +197,7 @@ main{
 
 
 .button input {
-    padding: 30px 0px;
+    padding: 15px 0px;
     width: 100%;
     border: 2px solid #000;
     border-radius: 10px;
@@ -246,6 +249,7 @@ main{
       border: 2px solid #000;
       margin-top: 20px;
       border-radius: 10px;
+      font-size: 35px;
 }
 
 .button img {
@@ -257,7 +261,18 @@ main{
   margin-top: 0px;
   font-size: 40px;
 }
-
+.button p{
+  font-size: 35px;
+}
+.button button{
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid #000;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 35px;
+}
 .next{
     border: 2px solid #000;
     width: 80%;
@@ -348,6 +363,7 @@ main{
 
 main{
   padding-top: 100px !important;
+
 }
 
 }

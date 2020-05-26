@@ -42,7 +42,10 @@
                 <div class="button udenicon" >
                   <h2>Lastbil Højde</h2>
 
-                  <?php echo $_GET["lastbil"]; ?>
+                        Højte: <?php echo $_GET["hojde"]; ?>
+                        Længde: <?php echo $_GET["lange"]; ?>
+                        Bredde: <?php echo $_GET["bred"]; ?>
+
                 </div>
           </section>
 
@@ -79,7 +82,11 @@
         </section>
 
         <section class="half">
-
+          <div class="button">
+              <a href="overview.html">
+            <h2>Overview</h2>
+          </a>
+          </div>
         </section>
     </main>
 

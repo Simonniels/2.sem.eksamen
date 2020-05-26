@@ -18,16 +18,17 @@
           <section class="half">
 
                 <div class="button" >
+                    <a href="gemde-kunder.html">
                 <img src="image/icon/box.png" alt="icon">
-                <h2>Gemt</h2>
-
+                <h2>Gemt kunder</h2>
+              </a>
                 </div>
 
           </section>
 
         <section class="half">
 
-          <div class="button button2" onclick="buttonFunction2()"  id="button2" >
+          <div class="button" >
     <a href="ny.html">
             <img src="image/icon/palle.png" alt="icon">
             <h2>Tilføj ny varer</h2></a>

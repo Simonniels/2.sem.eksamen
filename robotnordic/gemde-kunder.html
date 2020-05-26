@@ -41,9 +41,9 @@
         <h1>Gemde kunder</h1>
 
           </section>
-          <section class="full" id="gem"></section>
+          <section class="full" id="gem">
 
-
+          </section>
 
         <section class="half">
 
@@ -54,12 +54,8 @@
             </div>
 
         </section>
+    
 
-        <section class="half">
-          <div  id="kunderGem" class="kunderGem">
-          kasim deneme
-      </div>
-        </section>
     </main>
     <script>
       var gem, text, gemLen, i;
@@ -68,15 +64,10 @@
 
       text="";
       for (i = 0; i < gemLen; i++) {
-        text += "<a href='" + gem[i] + "'><div onclick='kunderGem()' class='gem-kunder'><h2>" + gem[i] + "</h2></div></a>";
+        text += "<a href='" + gem[i] + ".html'><div onclick='kunderGem()' class='gem-kunder'><h2>" + gem[i] + "</h2></div></a>";
       }
 
-
       document.getElementById("gem").innerHTML = text;
-
-
-
-
 
     </script>
 
