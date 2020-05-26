@@ -43,9 +43,7 @@
           </section>
           <section class="full" id="gem"></section>
 
-        <section class="half">
 
-        </section>
 
         <section class="half">
 
@@ -65,35 +63,18 @@
     </main>
     <script>
       var gem, text, gemLen, i;
-      gem = ["aldi", "fotex", "netto", "bilka", "spar"];
+      gem = ["aldi", "fotex", "netto", "bilka", "spar","rema"];
       gemLen = gem.length;
 
       text="";
       for (i = 0; i < gemLen; i++) {
-        text += "<div onclick='kunderGem()' id='kunderGem' class='gem-kunder'><h2>" + gem[i] + "</h2></div><div class='kunder'></div>";
+        text += "<a href='" + gem[i] + "'><div onclick='kunderGem()' class='gem-kunder'><h2>" + gem[i] + "</h2></div></a>";
       }
 
 
       document.getElementById("gem").innerHTML = text;
 
-      function kunderGem() {
-        document.getElementById("kunderGem").classList.toggle("show");
-      }
 
-      // Close the dropdown if the user clicks outside of it
-
-      window.onclick = function(event) {
-        if (!event.target.matches('.menu-line')) {
-          var dropdowns = document.getElementsByClassName("menu-left-part");
-          var i;
-          for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-              openDropdown.classList.remove('show');
-            }
-          }
-        }
-      }
 
 
 

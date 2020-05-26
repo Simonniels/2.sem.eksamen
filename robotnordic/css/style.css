@@ -321,7 +321,7 @@ main{
   width: 100%;
   flex-direction: row;
 }
-#gem div {
+#gem a {
   width: 45%;
   margin: 20px;
 }
@@ -335,10 +335,12 @@ main{
   color: #000;
   text-transform: uppercase;
 }
-.kunderGem{
-
+.kunder{
     display: none;
+  width: 50%;
+  background-color: #000;
 }
+
 
 }
 
