@@ -41,51 +41,9 @@
         <h1>Gemde kunder</h1>
 
           </section>
-
-          <section class="half">
-
-                <div class="button udenicon">
-                  <h2>Rema</h2>
-                </div>
-
-          </section>
+          <section class="full" id="gem"></section>
 
         <section class="half">
-
-          <div class="button  udenicon">
-            <h2>Bilka</h2>
-          </div>
-
-
-        </section>
-
-        <section class="half">
-
-          <div class="button  udenicon">
-            <h2>Elgigant</h2>
-          </div>
-
-        </section>
-
-        <section class="half">
-
-          <div class="button udenicon" >
-            <h2>Fotex</h2>
-          </div>
-
-        </section>
-        <section class="half">
-
-          <div class="button  udenicon">
-            <h2>Aldi</h2>
-          </div>
-
-        </section>
-        <section class="half">
-
-          <div class="button udenicon">
-            <h2>Netto</h2>
-          </div>
 
         </section>
 
@@ -100,9 +58,47 @@
         </section>
 
         <section class="half">
-
+          <div  id="kunderGem" class="kunderGem">
+          kasim deneme
+      </div>
         </section>
     </main>
+    <script>
+      var gem, text, gemLen, i;
+      gem = ["aldi", "fotex", "netto", "bilka", "spar"];
+      gemLen = gem.length;
+
+      text="";
+      for (i = 0; i < gemLen; i++) {
+        text += "<div onclick='kunderGem()' id='kunderGem' class='gem-kunder'><h2>" + gem[i] + "</h2></div><div class='kunder'></div>";
+      }
+
+
+      document.getElementById("gem").innerHTML = text;
+
+      function kunderGem() {
+        document.getElementById("kunderGem").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+
+      window.onclick = function(event) {
+        if (!event.target.matches('.menu-line')) {
+          var dropdowns = document.getElementsByClassName("menu-left-part");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+
+
+
+    </script>
+
 
   </body>
 </html>

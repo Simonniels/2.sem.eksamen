@@ -26,32 +26,3 @@ window.onclick = function(event) {
     }
   }
 }
-
-
-function buttonFunction() {
-  document.getElementById("button").classList.toggle("choose");
-  document.getElementById("button1").classList.remove("choose");
-  document.getElementById("button2").classList.remove("choose");
-  document.getElementById("button3").classList.remove("choose");
-}
-
-function buttonFunction1() {
-  document.getElementById("button1").classList.toggle("choose");
-  document.getElementById("button").classList.remove("choose");
-  document.getElementById("button2").classList.remove("choose");
-  document.getElementById("button3").classList.remove("choose");
-}
-
-
-function buttonFunction2() {
-  document.getElementById("button2").classList.toggle("choose");
-  document.getElementById("button1").classList.remove("choose");
-  document.getElementById("button").classList.remove("choose");
-  document.getElementById("button3").classList.remove("choose");
-}
-function buttonFunction3() {
-  document.getElementById("button3").classList.toggle("choose");
-  document.getElementById("button1").classList.remove("choose");
-  document.getElementById("button2").classList.remove("choose");
-  document.getElementById("button").classList.remove("choose");
-}

@@ -10,13 +10,14 @@
         <div class="button button1" onclick="buttonFunction1()"  id="button1" >
 
         <h2>Konto</h2>
+        <h2>Velkommen <?php echo $_GET["username"]; ?></h2>
         </div>
 
           </section>
 
           <section class="half">
 
-                <div class="button button0" onclick="buttonFunction()"  id="button" >
+                <div class="button" >
                 <img src="image/icon/box.png" alt="icon">
                 <h2>Gemt</h2>
 

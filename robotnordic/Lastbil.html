@@ -42,7 +42,7 @@
 
               </section>
 
-              <section id="lastbil"></section>
+        <section id="lastbil"></section>
 
 
 
@@ -51,10 +51,10 @@
           <div class="button udenicon">
             <h3>Indtaste speciel høj</h3>
 
-                  <form action="overview-lastbil.php"  method="get">
-                  <input type="text" name="lastbil">
-                  <input type="submit">
-                </form>
+              <form action="overview-lastbil.php"  method="get">
+              <input type="text" name="lastbil">
+              <input type="submit">
+            </form>
 
 
           </div>
@@ -71,20 +71,17 @@
 
         </section>
 
-        <section class="half">
-
-        </section>
     </main>
           <script>
-            var lastbil, text, fLen, i;
+            var lastbil, text, lastbilLen, i;
             lastbil = ["2.55", "2.60", "2.65", "2.70"];
-            fLen = lastbil.length;
+            lastbilLen = lastbil.length;
 
-          text="";
-            for (i = 0; i < fLen; i++) {
+            text="";
+            for (i = 0; i < lastbilLen; i++) {
               text += "<div class='lastbil-button'><form action='overview-lastbil.php'  method='get'> <input type='submit' name='lastbil' value='" + lastbil[i] + "'></form></div>";
             }
-            text += "";
+
 
             document.getElementById("lastbil").innerHTML = text;
 
