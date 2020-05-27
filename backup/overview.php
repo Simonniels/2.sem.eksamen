@@ -39,25 +39,17 @@
 
           <section class="half">
 
-                <div class="button" >
-                  <h2>Kasse oplysnigner</h2>
-                  <p>Højde= 29cm;</p>
-                  <p>Bredde= 12cm;</p>
-                  <p>Længde= 39cm;</p>
-                  <p>Vægt= 2 kilo;</p>
-                  <button type="button" name="button">Rediger</button>
+                <div class="button udenicon" >
+                  <h2>Lastbil Højde</h2>
+
+                  <?php echo $_GET["lastbil"]; ?>
                 </div>
           </section>
 
         <section class="half">
 
-          <div class="button" >
-            <h2>Palle</h2>
-            <p>Højde= 9cm;</p>
-            <p>Bredde= 45cm;</p>
-            <p>Længde= 39cm;</p>
-            <p>Vægt= 2 kilo;</p>
-            <button type="button" name="button">Rediger</button>
+          <div class="button  udenicon">
+            <h2>Tilføj kasse oplysninger</h2>
           </div>
 
 
@@ -65,16 +57,20 @@
 
         <section class="half">
 
-          <div class="button" >
-            <h2>Lastbil</h2>
-            <p>2,80</p>
-            <button type="button" name="button">Rediger</button>
+          <div class="button  udenicon">
+            <h2>Tilføj palle oplysninger</h2>
           </div>
+
         </section>
+        <section class="half">
 
-        <section class="full">
+  
 
-            <div class="button">
+        </section>
+        <section class="half">
+
+
+            <div class="next">
                 <button onclick="goBack()">
               <h2>Tilbage</h2>
               </button>
@@ -83,13 +79,8 @@
         </section>
 
         <section class="half">
-          <div class="button">
-              <a href="sende.html">
-            <h2>Sende</h2>
-          </a>
-          </div>
-        </section>
 
+        </section>
     </main>
 
   </body>

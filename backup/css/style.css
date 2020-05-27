@@ -194,6 +194,16 @@ main{
   width: 45%;
 }
 
+
+
+.button input {
+    padding: 15px 0px;
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 10px;
+    font-size: 50px;
+}
+
 .udenicon{
   min-height: 115px;
   padding-top: 90px
@@ -250,17 +260,11 @@ main{
 .button h2 {
   margin-top: 0px;
   font-size: 40px;
-  color: #fff !important;
-  background-color: #376FB6;
-  padding: 10px;
-  border-radius: 10px;
 }
 .button p{
   font-size: 35px;
 }
 .button button{
-    background-color: #376FB6;
-    color: #fff;
   width: 80%;
   margin: auto;
   padding: 20px;
@@ -268,18 +272,6 @@ main{
   margin-top: 20px;
   border-radius: 10px;
   font-size: 35px;
-}
-.button input {
-  background-color: #EB5B27;
-  color: #fff;
-    padding: 15px 0px;
-    width: 100%;
-    border: 2px solid #000;
-    border-radius: 10px;
-    font-size: 50px;
-}
-.header{
-  margin: auto;
 }
 .next{
     border: 2px solid #000;
