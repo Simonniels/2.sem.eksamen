@@ -1,11 +1,14 @@
 /* Gemde kunder siden. Det viser forskerlige kunder navn og link til oplysninger. */
-var gem, text, gemLen, i;
-gem = ["aldi", "fotex", "netto", "bilka"];
-gemLen = gem.length;
+var gem, text, gemantal, i;
+gem = ["aldi", "fotex", "netto", "bilka", "rema", "robot"];
+gemantal = gem.length;
 
 text="";
-for (i = 0; i < gemLen; i++) {
+
+for (i = 0; i < gemantal; i++) {
+
   text += "<a href='" + gem[i] + ".php'><div onclick='kunderGem()' class='gem-kunder'><h2>" + gem[i] + "</h2></div></a>";
+
 }
 
 document.getElementById("gem").innerHTML = text;

@@ -29,7 +29,7 @@
         <section class="half">
 
           <div class="button" >
-    <a href="ny.php">
+            <a href="ny.php">
             <img src="image/icon/palle.png" alt="icon">
             <h2>Tilføj ny varer</h2></a>
           </div>
