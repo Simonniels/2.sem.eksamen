@@ -154,7 +154,14 @@ main{
 .full h2{
   font-size: 55px;
   text-align: center;
-  color: red;
+  color: #f15a22;
+  width: 100%;
+  margin: auto;
+}
+.full p{
+  font-size: 55px;
+  text-align: center;
+  color: #000;
   width: 100%;
   margin: auto;
 }
@@ -364,6 +371,22 @@ main{
   background-color: #000;
 }
 
+.farve {
+  width: 45%;
+  height: 100px;
+  margin: 20px;
+}
+.sort{
+  background-color: #222b3b;}
+.orange{
+  background-color: #f15a22;
+}
+.grey{
+  background-color: #323e44;
+}
+.blue{
+  background-color: #007bff;
+}
 
 }
 

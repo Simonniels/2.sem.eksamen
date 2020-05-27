@@ -3,7 +3,7 @@
   <main>
 
     <section class="full">
-      <h1>stylesheet</h1>
+      <h2>stylesheet</h2>
     </section>
 
     <section class="full">
@@ -17,8 +17,8 @@
 
     <section class="full">
       <h2>Billeder</h2>
-      <img src="image/europalle.jpg" alt="Billede af et produkt">
-      <img src="image/logo.png" alt="Billede af et produkt">
+      <img src="image/europalle.jpg" alt="Billede af et palle"  width="100px">
+      <img src="image/logo.png" alt="Billede af logo" width="100px">
 
     </section>
 
@@ -32,30 +32,26 @@
       </div>
     </section>
 
-    <section class="full styleikon">
+    <section class="full">
       <h3>Ikoner</h3>
-        <img src="image/home-icon.png" alt="Billede af et ikon">
-        <img src="image/kurv-icon.png" alt="Billede af et ikon">
-        <img src="image/tlf.png" alt="Billede af et ikon">
-        <img src="image/live-icon.png" alt="Billede af et ikon">
+        <img src="image/icon/box.png" alt="Billede af et ikon" width="100px">
+        <img src="image/icon/house.png" alt="Billede af et ikon" width="100px">
+        <img src="image/icon/palle.png" alt="Billede af et ikon" width="100px">
+        <img src="image/icon/qr.png" alt="Billede af et ikon" width="100px">
     </section>
 
-    <section class="full palette">
-      <h3>Farvepalette</h3>
-        <h4>Main:</h4>
-          <div class="blue">
+    <section class="full">
+      <h2>Farvepalette</h2>
+
+          <div class="farve sort">
           </div>
-          <div class="grey">
+          <div class="farve orange">
           </div>
-          <div class="green">
+          <div class="farve grey">
           </div>
-          <div class="white">
+          <div class="farve blue">
           </div>
-        <h4>Secondary:</h4>
-          <div class="black">
-          </div>
-          <div class="silver">
-          </div>
+
     </section>
 
     </main>
