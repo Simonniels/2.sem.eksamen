@@ -73,7 +73,7 @@
         </section>
 
 
-        <section class="half">
+        <section class="full">
 
             <div class="button">
                 <button onclick="goBack()">
@@ -82,9 +82,7 @@
             </div>
 
         </section>
-        <section class="half">
 
-        </section>
 
     </main>
 

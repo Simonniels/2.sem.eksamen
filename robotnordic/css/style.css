@@ -1,9 +1,5 @@
 
 
-
-@media only screen and (min-width: 980px) {
-
-
 /*header area*/
 header {
     width: 100%;
@@ -145,6 +141,7 @@ main{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   background-color: #fff;
   text-align: center;
   margin: auto;
@@ -165,6 +162,7 @@ main{
   width: 100%;
   margin: auto;
 }
+.image{margin: auto;}
 
 .half h2{
   font-size: 55px;
@@ -396,20 +394,8 @@ main{
   background-color: #007bff;
 }
 
-}
 
 @media only screen and (max-width: 979px) {
 
-main{
-  padding-top: 100px !important;
-
-}
-h2 {
-    margin-top: 0px;
-    font-size: 40px;
-    color: ##222b3b !important;
-    padding: 10px;
-    border-radius: 10px;
-}
 
 }

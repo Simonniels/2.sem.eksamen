@@ -3,7 +3,7 @@
   <main>
 
     <section class="full">
-      <h2>stylesheet</h2>
+      <h2>Styleguide</h2>
     </section>
 
     <section class="full">
@@ -15,12 +15,7 @@
       <p>"Font Type: Titillium web"</p>
     </section>
 
-    <section class="full">
-      <h2>Billeder</h2>
-      <img src="image/europalle.jpg" alt="Billede af et palle"  width="100px">
-      <img src="image/logo.png" alt="Billede af logo" width="100px">
-
-    </section>
+  
 
     <section class="full">
       <h2>Knapper</h2>
@@ -33,11 +28,14 @@
     </section>
 
     <section class="full">
-      <h3>Ikoner</h3>
-        <img src="image/icon/box.png" alt="Billede af et ikon" width="100px">
-        <img src="image/icon/house.png" alt="Billede af et ikon" width="100px">
-        <img src="image/icon/palle.png" alt="Billede af et ikon" width="100px">
-        <img src="image/icon/qr.png" alt="Billede af et ikon" width="100px">
+      <h2>Ikoner</h2>
+      <div class="image">
+
+        <img src="image/icon/box.png" alt="Billede af et ikon" width="200px">
+        <img src="image/icon/house.png" alt="Billede af et ikon" width="200px">
+        <img src="image/icon/palle.png" alt="Billede af et ikon" width="200px">
+        <img src="image/icon/qr.png" alt="Billede af et ikon" width="200px">
+        </div>
     </section>
 
     <section class="full">
@@ -53,7 +51,15 @@
           </div>
 
     </section>
+    <section class="full">
 
+        <div class="button">
+            <button onclick="goBack()">
+          <h2>Tilbage</h2>
+          </button>
+        </div>
+
+    </section>
     </main>
 
   </body>
