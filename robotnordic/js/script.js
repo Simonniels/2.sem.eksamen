@@ -1,6 +1,6 @@
 /* Gemde kunder siden. Det viser forskerlige kunder navn og link til oplysninger. */
 var gem, text, gemantal, i;
-gem = ["aldi", "fotex", "netto", "bilka", "rema", "robot"];
+gem = ["aldi", "fotex", "netto", "bilka"];
 gemantal = gem.length;
 
 text="";

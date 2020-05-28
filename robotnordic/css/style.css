@@ -166,6 +166,14 @@ main{
   margin: auto;
 }
 
+.half h2{
+  font-size: 55px;
+  text-align: center;
+  color: #f15a22;
+  width: 100%;
+  margin: auto;
+}
+
 .kasse-form{
   display: flex;
   flex-direction: column;
@@ -395,6 +403,13 @@ main{
 main{
   padding-top: 100px !important;
 
+}
+h2 {
+    margin-top: 0px;
+    font-size: 40px;
+    color: ##222b3b !important;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 }

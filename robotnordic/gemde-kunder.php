@@ -12,7 +12,7 @@
 
           </section>
 
-        <section class="half">
+        <section class="full">
 
             <div class="button">
                 <button onclick="goBack()">
@@ -25,7 +25,7 @@
 
     </main>
     <script>
-    
+
 
     </script>
 

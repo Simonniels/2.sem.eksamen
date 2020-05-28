@@ -22,6 +22,7 @@
             <p>Bredde= 12cm;</p>
             <p>Længde= 39cm;</p>
             <p>Vægt= 2 kilo;</p>
+            <button type="button" name="button">Kopier</button>
 
           </a>
           </div>
@@ -36,7 +37,7 @@
             <p>Bredde= 45cm;</p>
             <p>Længde= 39cm;</p>
             <p>Vægt= 2 kilo;</p>
-
+            <button type="button" name="button">Kopier</button>
           </a>
           </div>
 
@@ -50,7 +51,7 @@
             <p>Bredde= 12cm;</p>
             <p>Længde= 39cm;</p>
             <p>Vægt= 2 kilo;</p>
-
+            <button type="button" name="button">Kopier</button>
           </a>
           </div>
 
@@ -65,7 +66,7 @@
             <p>Bredde= 12cm;</p>
             <p>Længde= 39cm;</p>
             <p>Vægt= 2 kilo;</p>
-
+            <button type="button" name="button">Kopier</button>
           </a>
           </div>
 
